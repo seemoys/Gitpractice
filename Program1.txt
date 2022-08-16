@@ -1,4 +1,72 @@
-Hi everyone
-how are you
-my self Seemoy shome
-!!!!!!!!!!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Details</title>
+</head>
+
+<body style="background-color:TEAL">
+    <fieldset>
+        <form action="" method="get">
+            <legend> Registration Details</legend>
+            <table>
+                <tr>
+                    <th><label for="univ">University:</label></th>
+                    <td><input type="text" id="univ"></td>
+                </tr>
+
+
+                <tr>
+                    <th><label for="Ins">Institute:</label></th>
+                    <td><input type="text" id="Ins"></td>
+                </tr>
+                </table>
+                </form>
+                </fieldset>
+                <br>
+                <input type="button">button
+                
+                <input type="checkbox">checkbox
+                
+                <input type="color">colour
+                
+                <input type="date">date
+                <input type="datetime-local">date & time
+                <input type="email">email
+                <input type="file">File upload
+                <br><br>
+                <input type="hidden">Hidden
+                <input type="image">Image
+                <input type="month">Month
+                <input type="number">number
+                <br><br>
+                <input type="password">password
+                <input type="radio">radio
+                <input type="range">range
+                <input type="reset">reset
+                <br><br>
+                <input type="search">search
+                <input type="submit">submit
+                <input type="tel">tel
+                <input type="text">text
+                <br><br>
+                <input type="time">Time
+                <input type="url">url
+                <input type="week">Week
+                <br><br>
+                <form action="/action_page.php" autocomplete="on">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" autocomplete="off"><br><br>
+                    <input type="submit">
+                </form>
+
+<button>submit</button>
+
+                </body>
